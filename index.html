@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <title>MUAMMAR - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-profile">
+            <div class="sidebar-avatar">
+                <img src="foto/foto1.jpeg" alt="Muammar">
+            </div>
+            <div class="sidebar-name">Muammar</div>
+            <div class="sidebar-role">Informatics Engineering</div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item active">
+                <i class="fas fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="about.html" class="nav-item">
+                <i class="fas fa-user"></i>
+                <span>Tentang</span>
+            </a>
+            <a href="project.html" class="nav-item">
+                <i class="fas fa-briefcase"></i>
+                <span>Project</span>
+            </a>
+            <a href="contact.html" class="nav-item">
+                <i class="fas fa-phone"></i>
+                <span>Kontak</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="sidebar-social">
+                <a href="https://www.linkedin.com/in/muammar473/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Ammar40404" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:muamar.idm008@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MAIN WRAPPER -->
+    <div class="main-wrapper">
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+            <div class="topbar-left">
+                <span class="topbar-page">Home</span>
+            </div>
+            <div class="topbar-right">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                    <span id="theme-label">Dark Mode</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- PAGE CONTENT -->
+        <main class="page-content">
+
+            <!-- Hero Card -->
+            <section class="hero-section">
+                <div class="hero-card">
+                    <div class="hero-card-body">
+                        <div class="hero-text-block">
+                            <p class="hero-eyebrow">
+                                <i class="fas fa-circle" style="font-size:0.45rem;color:var(--highlight);"></i>
+                                Fresh Graduate · Informatics Engineering
+                            </p>
+                            <h1 class="hero-name">
+                                <span class="hero-hi">Halo, Saya</span><br>
+                                <span class="hero-highlight" id="typed-name">Muammar</span>
+                            </h1>
+                            <p class="hero-desc">
+                                Selamat datang di portofolio saya! Saya fresh graduate Teknik Informatika
+                                yang tertarik dalam pengembangan web dan desain UI/UX.
+                            </p>
+                            <div class="hero-actions">
+                                <a href="project.html" class="btn-primary">
+                                    <i class="fas fa-briefcase"></i> Lihat Project
+                                </a>
+                                <a href="contact.html" class="btn-outline">Kontak Saya</a>
+                                <a href="assets/MUAMMAR_CV.pdf" class="btn-outline" target="_blank" download>
+                                    <i class="fas fa-download"></i> Download CV
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hero-image-block">
+                            <div class="hero-avatar-ring breathing-glow">
+                                <img src="foto/foto1.jpeg" alt="Muammar" class="hero-avatar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- MOBILE BOTTOM NAV -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="bnav-item active">
+            <i class="fas fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="about.html" class="bnav-item">
+            <i class="fas fa-user"></i>
+            <span>Tentang</span>
+        </a>
+        <a href="project.html" class="bnav-item">
+            <i class="fas fa-briefcase"></i>
+            <span>Project</span>
+        </a>
+        <a href="contact.html" class="bnav-item">
+            <i class="fas fa-phone"></i>
+            <span>Kontak</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
